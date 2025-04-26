@@ -13,7 +13,7 @@ int main() {
         cin >> arr[i];
     }
 
-    int maxDivisibleBy3 = -1; // Giả sử không có số nào chia hết cho 3
+    int maxDivisibleBy3 = -1; 
     for (int i = 0; i < n; i++) {
         if (arr[i] % 3 == 0 && arr[i] > maxDivisibleBy3) {
             maxDivisibleBy3 = arr[i];
